@@ -22,8 +22,8 @@ receivingFunction(callbackFunction)
 
 const prizes = ["Bag of bananas", "Box of frogs", "Car of clowns"];
 
-prizes.forEach(function(Prize, i){
-    console.log(`Prize ${i + 1}: ${prizes[i]}`)
+prizes.forEach(function(prize, i){
+    console.log(`Prize ${i + 1}: ${prize}`)
 } )
 
 // Question 3
